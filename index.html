@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="registrationForm" class="form">
+            <h2>Register</h2>
+            <select id="job-title" name="job-title" required>
+                <option value="">Select a job title</option>
+                <option value="SD">Software Developer</option>
+                <option value="GD">Graphic Designer</option>
+                <option value="PM">Project Manager</option>
+                <option value="QA">QA Engineer</option>
+                <option value="TC">Technical Consultant</option>
+            </select>
+            <input type="text" placeholder="Username" id="username" required>
+            <input type="text" placeholder="First Name" id="first" required>
+            <input type="text" placeholder="Last Name" id="last" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="text" id="company" placeholder="Company" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
